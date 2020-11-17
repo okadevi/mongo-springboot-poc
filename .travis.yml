@@ -11,12 +11,12 @@ after_success:
 - cd $HOME/build
 - pwd
 - ls -l
-- git config --global user.email "edev022020@gmail.com"
+- git config --global user.email "testxyz@gmail.com"
 - git config --global user.name "okadevi"
 - git clone --depth=50 --branch=master https://github.com/okadevi/mongo-springboot-poc
 - cd mongo-springboot-poc
 - ls -l
-- cp -r C:/Users/Devi/Desktop/github/mongo-springboot-poc/iom/target $HOME/build/mongo-springboot-poc
+- cp -r C:/Users/Dev/Desktop/github/mongo-springboot-poc/iom/target $HOME/build/mongo-springboot-poc
 - ls -l
 - git add -f .
 - git remote rm origin
